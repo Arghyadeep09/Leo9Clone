@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import MenuIcon from "./icon/MenuIcon.jsx";
 import { Sun, Moon } from "lucide-react";
-import logo from "/src/assets/logo-light.svg";
+import logo from '../../public/assets/logo-light.svg';
 
 const NavLink = ({ name, href, isDot }) => (
   <a
