@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const clientLogos = [
-  "public/assets/tata.webp",
-  "public/assets/bmw-svgrepo-com.svg",
-  "public/assets/sony-2-logo-svgrepo-com.svg",
-  "public/assets/huggies.svg",
-  "public/assets/Eton-Logo.webp",
-  "public/assets/procter-gamble-1.svg",
+  "/assets/tata.webp",
+  "/assets/bmw-svgrepo-com.svg",
+  "/assets/sony-2-logo-svgrepo-com.svg",
+  "/assets/huggies.svg",
+  "/assets/Eton-Logo.webp",
+  "/assets/procter-gamble-1.svg",
 ];
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
         {/* Left Side Animation */}
         <div className="w-full lg:w-1/2 flex justify-center items-center">
           <motion.img
-            src="public/assets/lion-face-svgrepo-com.svg"
+            src="/assets/lion-face-svgrepo-com.svg"
             alt="Animation"
             className="max-w-[220px] lg:max-w-[260px] lg:mt-0 mt-20"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -77,7 +77,7 @@ const Hero = () => {
         onClick={() => alert("Contact Us Clicked!")}
       >
         <video
-          src="../../public/assets/avatar-leo.mp4"
+          src="../../assets/avatar-leo.mp4"
           autoPlay
           loop
           muted

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import MenuIcon from "./icon/MenuIcon.jsx";
 import { Sun, Moon } from "lucide-react";
-import logo from '../../public/assets/logo-light.svg';
+
 
 const NavLink = ({ name, href, isDot }) => (
   <a
@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src={logo}
+              src="/assets/logo-light.svg"
               alt="Logo"
               className="h-26 w-26 md:h-30 md:w-30 object-contain"
               style={{ maxHeight: "50px" }}
